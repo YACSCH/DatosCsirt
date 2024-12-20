@@ -62,7 +62,7 @@ const Alerts = () => {
         <Container sx={{ mt: 2 }}>
             <Grid container spacing={2}>
                 {alerts.map((alert, idx) => (
-                    <Grid item xs={12} sm={6} md={4} lg={3} key={idx}>
+                    <Grid item xs={12} md={6} lg={4} key={idx}>
                         <Card
                             variant="outlined"
                             sx={{
